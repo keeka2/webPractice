@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+	header{
+		height: 80px;
+		margin: 0;
+		color: #ababab;
+		background-color:#000000;
+	}
+	ul#menu{
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		text-align: center;
+		line-height: 80px;
+	}
+	ul#li>a{
+		line-height: 80px;
+		text-decoration= none;
+	}
+	ul#menu>li{
+		display: inline;
+	}
+</style>
+</head>
+<body>
+	<header>
+		<ul id="menu">
+			<li id=""><a href>HOME</a></li>
+			<li id=""><a href>BENZ</a></li>
+			<li id=""><a href>HYUNDAI</a></li>
+			<li id=""><a href>AUDI</a></li>
+			<li id=""><a href>BENTLY</a></li>
+		</ul>
+	</header>
+</body>
+</html>

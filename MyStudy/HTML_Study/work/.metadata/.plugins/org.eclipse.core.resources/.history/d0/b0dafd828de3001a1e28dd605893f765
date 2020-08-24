@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+	header>h1{
+		font-size: 70px;
+		color: #0000FF;
+	}
+	
+	tr>td:first-child{
+		text-align: right;
+	}
+
+</style>
+</head>
+<body>
+	<header>
+		<h1>(주)창영 투자증권</h1>
+	</header>
+	<label for="s_id">이름: </label>
+	<input type="text" id="s_id" name="id"/><br/>
+	<label for="s_pw">핸드폰 번호: </label>
+	<input type="text" id="s_pw" name="pw"/><br/>
+	<label for="s_num">주민번호: </label>
+	<input type="text" id="s_num" name="num"/><br/>
+	<label for="s_account">계좌번호: </label>
+	<input type="text" id="s_account" name="account"/><br/>
+	<input type="button" value="급등주 확인하기" onclick="test()"/>
+	
+	
+	<article>
+		<header>
+			<h1>(주)창영 투자증권</h1>
+		</header>
+		<div id="content">
+			<form action="" method="get">
+				<table>
+					<tbody>
+						<tr>
+							<td><label for="s_name">이름</label>
+							<td><input type="text" id="s_name" name="name"/><br/></td>
+						</tr>
+						<tr>
+							<td><label for="s_phone">전화번호</label>
+							<td><input type="text" id="s_phone" name="phone"/><br/></td>
+						</tr>
+						<tr>
+							<td><label for="s_per">주민번호</label>
+							<td><input type="text" id="s_per" name="per"/><br/></td>
+						</tr>
+						<tr>
+							<td><label for="s_acc">계좌번호</label>
+							<td><input type="text" id="s_acc" name="acc"/><br/></td>
+						</tr>
+						
+					</tbody>
+				</table>
+			</form>
+			<input type="button" value="급등주 확인하기" onclick="test()"/>
+			
+		</div>
+	</article>
+	
+</body>
+
+
+<script>
+	function test(){
+		alert("꺼억^ㅗ^");
+	}
+</script>
+</html>

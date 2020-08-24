@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+	header{
+		height: 80px;
+		margin: 0;
+		color: #ababab;
+		background-color:#000000;
+	}
+</style>
+</head>
+<body>
+	<header>
+		<div id="menu">
+			<li id=""><a href>HOME</a></li>
+			<li id=""><a href>BENZ</a></li>
+			<li id=""><a href>HYUNDAI</a></li>
+			<li id=""><a href>AUDI</a></li>
+			<li id=""><a href>BENTLY</a></li>
+		</div>
+	</header>
+</body>
+</html>

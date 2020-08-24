@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+	header>h1{
+		font-size: 70px;
+		color: #0000FF;
+	}
+
+</style>
+</head>
+<body>
+	<header>
+		<h1>(주)창영 투자증권</h1>
+	</header>
+	<label for="s_id">이름: </label>
+	<input type="text" id="s_id" name="id"/><br/>
+	<label for="s_pw">핸드폰 번호: </label>
+	<input type="text" id="s_pw" name="pw"/><br/>
+	<label for="s_num">주민번호: </label>
+	<input type="text" id="s_num" name="num"/><br/>
+	<label for="s_account">계좌번호: </label>
+	<input type="text" id="s_account" name="account"/><br/>
+	<input type="button" value="급등주 확인하기" onclick="test()"/>
+	
+</body>
+<script>
+	function test(){
+		alert("꺼억^ㅗ^");
+	}
+</script>
+</html>

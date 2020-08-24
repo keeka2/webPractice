@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>테이블 연습</h1>
+	<div>
+		<table border="5">
+			<thead><!-- 테이블 머리글 -->
+				<tr>
+					<th>사번</th>
+					<th>이름</th>
+					<th>직종</th>
+					<th>부서</th>
+				</tr><!-- 행 의미 -->
+			</thead>
+			
+			<tfoot><!-- 테이블 바닥글 -->
+				<tr>
+					<td>바닥1</td>
+					<td>바닥2</td>
+					<td>바닥3</td>
+					<td>바닥4</td>
+				</tr>
+			</tfoot>
+			
+			<tbody>
+				<tr>
+					<td>1</td>
+					<td>전창영</td>
+					<td>해외선물</td>
+					<td>개인</td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>황규민</td>
+					<td>반도체</td>
+					<td>ㅁㅁㅁㅁ</td>
+				</tr>
+				<tr>
+					<td>3</td>
+					<td>박대근</td>
+					<td>개발</td>
+					<td>구글</td>
+				</tr>
+			</tbody>
+		</table>
+		<h1>======================</h1></br>
+		<!-- ========================================================= -->
+		<table border="5" style="border-collapse: collapse;">
+			<thead><!-- 테이블 머리글 -->
+				<tr>
+					<th>사번</th>
+					<th>이름</th>
+					<th>직종</th>
+					<th>부서</th>
+				</tr><!-- 행 의미 -->
+			</thead>
+			
+			<tfoot><!-- 테이블 바닥글 -->
+				<tr>
+					<td>바닥1</td>
+					<td>바닥2</td>
+					<td>바닥3</td>
+					<td>바닥4</td>
+				</tr>
+			</tfoot>
+			
+			<tbody>
+				<tr>
+					<td>1</td>
+					<td>전창영</td>
+					<td>해외선물</td>
+					<td>개인</td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>황규민</td>
+					<td>반도체</td>
+					<td>ㅁㅁㅁㅁ</td>
+				</tr>
+				<tr>
+					<td>3</td>
+					<td>박대근</td>
+					<td>개발</td>
+					<td>구글</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</body>
+</html>

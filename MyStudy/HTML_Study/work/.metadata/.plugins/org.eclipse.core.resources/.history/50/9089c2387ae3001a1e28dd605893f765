@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+	header>h1{
+		font-size: 70px;
+		color: #0000FF;
+	}
+</style>
+
+</head>
+<body>
+	<header>
+		<h1>table merge</h1>
+	</header>
+	<article>
+		<tbody>
+			<tr>
+				<td>1</td>
+				<td>2</td>
+				<td>3</td>
+				<td>4</td>
+				<td>5</td>
+				<td>6</td>
+			</tr>
+		</tbody>
+	</article>
+</body>
+</html>

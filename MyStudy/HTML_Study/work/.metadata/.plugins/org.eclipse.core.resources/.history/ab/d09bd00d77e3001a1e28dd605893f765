@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+
+<style>
+table{
+	table: 500px;
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+th,td{/*th또는 td를 만나면 수행*/
+	border: 1px solid black;
+}
+thead>tr{/* thead의 자식 요소들 중...(>) thead의 tr에게만 적용*/
+	height: 50px;
+	background-color: #fffff;
+}
+.txt_r{
+	text-align: right;
+}
+</style>
+<body>
+	<header>
+		<h1>테이블 병합<h1/>
+	</header>
+	<article><!-- 현재문서의 본문 -->
+		<div>
+			<table>
+				<colgroup>
+					<col width="100"/>
+					<col width="*"/>
+					<col width="150"/>
+					<col width="80"/>
+				</colgroup>
+				<tfoot>
+					<tr><!-- 4개의 열을 하나로 병합 -->
+					<td colspan="4" class="txt_r">자료제공: (주)창영투자증권</td>
+					</tr>
+				</tfoot>
+				<tbody>
+					<tr>
+						<td>정창영</td>
+						<td>stockmaster@google.com</td>
+						<td class="txt_r">010-8496-4621</td>
+						<td></td>
+					</tr>		
+					<tr>
+						<td>박대근</td>
+						<td>htmlnojam@google.com</td>
+						<td class="txt_r">010-2222-4621</td>
+						<td></td>
+					</tr>	
+					<tr>
+						<td>개미</td>
+						<td>ant@google.com</td>
+						<td class="txt_r">010-2223-3993</td>
+						<td></td>
+					</tr>	
+					<tr>
+						<td>슈퍼개미</td>
+						<td>stockmaster2@google.com</td>
+						<td class="txt_r">010-8342-4623</td>
+						<td></td>
+					</tr>		
+				</tbody>
+				<thead>
+					<tr>
+						<th>이름</th>
+						<th>이메일</th>
+						<th>연락처</th>
+						<th>구분</th>
+					</tr>
+				</thead>
+			</table>
+		</div>
+	</article>
+</body>
+</html>

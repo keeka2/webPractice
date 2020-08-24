@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+	<h1>웹표준</h1>
+	<h2>웹표준</h2>
+	<h3>웹표준</h3>
+	<h4>웹표준</h4>
+	<h5>웹표준</h5>
+	<h6>웹표준</h6>
+	<h7>웹표준</h7><!-- h7태그는 없는 태그다 -->
+	<p>
+		p태그는 문단 태그
+		h태그는 h1~h6까지 존재, h7은 존재X
+		그리고 h태그들은 블록레벨이다.
+		그러나 이거 줄바꿈 안된다<br/>
+		br태그 쓰면 줄바꿈 된다
+	</p>
+	
+	<p>
+		링크태그인 a태그는 다른 문서 또는 다른 사이트의 페이지와 연결하는 태그<br/>
+		a태그는 h1~h6태그와는 다르게 블록레벌이 아닌 인라인 레벨이라고 함<br/>
+		인라인은 크기조절을 못하고 블록레벨은 크기 조절이 가능<br/>
+		<a href="https://www.naver.com"> 네이버 </a><br/>
+		<a href="https://www.google.com"> 구글 </a><br/>
+		<a href="https://www.daum.net"> 다음 </a><br/>
+		img태그의 이미지 위치는 src로 하고 이미지 불러올때는 html있는 파일 기준으로 찾아감<br/>
+		
+		<img src="D:\MyStudy\HTML_Study\work\0821\WebContent\images\naverLogo.png"/>
+	</p>
+</body>
+</html>

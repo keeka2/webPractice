@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+	ul#menu{
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		
+		fontfont-family: sans-serif;
+		font-weight: bold;
+		font-size: 30px;
+	}
+	
+	ul#menu>li{
+		display: inline-block;
+		border: 1px solid red;
+	}
+</style>
+</head>
+<body>
+	<h1>뱅크샐러드</h1>
+	<div>
+		<ul id="menu">
+			<li id="mail"><a href="">mail</a></li>
+			<li id="cafe"><a href="">cafe</a></li>
+			<li id="blog"><a href="">blog</a></li>
+			<li id="kin"><a href="">kin</a></li>
+		</ul>
+	</div>
+</body>
+</html>

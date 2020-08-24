@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+	ul#v_menu{
+		margin: 0;
+		padding:0;
+		width: 300px;
+		height: 100px;
+		list-style: none;
+	}
+	
+	ul#v_menu>li{
+		border: 1px solid black;
+		height: 100px;
+		width: 300px;
+		margin: 0;
+	}
+	ul#v_menu>li>a{
+		display: block;
+		width: 100%;
+		height: 100%;
+		text-indent: -9999px;
+	}
+	li#mail>a{
+		background-image:url(images/mail_a.gif);
+		background-position: left top;
+		background-repeat: no-repeat;
+	}
+	li#mail>a:hover{
+		background-position: left center;
+	}
+</style>
+</head>
+<body>
+	<h1>vertical</h1>
+	<div id="menu">
+		<ul id="v_menu">
+		<li id="mail"><a href="">mail</a></li>
+		<li id="cafe"><a href="">cafe</a></li>
+		<li id="blog"><a href="">blog</a></li>
+		<li id="jisik"><a href="">jisikin</a></li>
+		</ul>
+	</div>
+</body>
+</html>

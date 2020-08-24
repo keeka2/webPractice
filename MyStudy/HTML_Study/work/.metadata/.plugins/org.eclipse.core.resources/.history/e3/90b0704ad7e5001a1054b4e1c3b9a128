@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+ul#v_menu{
+	margin: 0;
+	padding: 0;
+	width: 300px;
+	list-style:none;
+}
+
+ul#v_menu{
+	margins: 0;
+	width: 300px;
+	height: 100px;
+}
+ul#v_menu>li{
+	border: 1px solid red;
+	margin: 0;
+	widtth: 300px;
+	height: 100px;
+}
+ul#v_menu>li>a{
+	display: block;
+	widtth: 100%;
+	height: 100%;
+	
+	text-indent: -9999px;
+}
+
+li#mail>a{
+	background-image: url(images/mail.gif);
+	background-psition: left top;
+	background-repeat: no-repeat;
+}
+li#cafe>a{
+	background-image: url(images/cafe.gif);
+	background-psition: left top;
+	background-repeat: no-repeat;
+}
+li#blog>a{
+	background-image: url(images/blog.gif);
+	background-psition: left top;
+	background-repeat: no-repeat;
+}
+li#jisik>a{
+	background-image: url(images/kin.gif);
+	background-psition: left top;
+	background-repeat: no-repeat;
+}
+
+li#mail>a:hover{
+	background-position: right top;
+}
+li#cafe>a:hover{
+	background-position: right top;
+}
+li#blog>a:hover{
+	background-position: right top;
+}
+li#jisik>a:hover{
+	background-position: right top;
+}
+</style>
+</head>
+<body>
+	<h1>vertical</h1>
+	<div id="menu">
+		<ul id="v_menu">
+		<li id="mail"><a href="">mail</a></li>
+		<li id="cafe"><a href="">cafe</a></li>
+		<li id="blog"><a href="">blog</a></li>
+		<li id="jisik"><a href="">jisikin</a></li>
+		</ul>
+	</div>
+</body>
+</html>

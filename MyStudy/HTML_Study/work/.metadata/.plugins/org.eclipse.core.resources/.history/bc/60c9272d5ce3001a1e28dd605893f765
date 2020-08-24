@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>테이블 연습</h1>
+	<div>
+		<table>
+			<thead>
+				<tr>
+					<th>사번</th>
+					<th>이름</th>
+					<th>직종</th>
+					<th>부서</th>
+				</tr><!-- 행 의미 -->
+			</thead>
+			<tfoot></tfoot>
+			<tbody></tbody>
+		</table>
+	</div>
+</body>
+</html>

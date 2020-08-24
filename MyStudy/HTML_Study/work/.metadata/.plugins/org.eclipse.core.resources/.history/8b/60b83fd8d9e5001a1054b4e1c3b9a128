@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+	body{
+		margin:0;
+		padding:0;
+	}
+	header{
+		height: 80px;
+		margin: 0;
+		background-color:#000000;
+	}
+	ul#menu{
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		text-align: center;
+		line-height: 80px;
+
+	}
+	ul#menu>li>a{
+		line-height: 80px;
+		text-decoration: none;
+		color: #ffffff;
+		background-color:#000000;
+	}
+	ul#menu>li{
+		display: inline;
+	}
+	
+	ul#menu .selected{
+		color: #ff8000;
+		border-bottom: 4px solid #ff8000;
+		font-size: 24px;
+	}
+</style>
+</head>
+<body>
+	<header>
+		<ul id="menu">
+			<li id=""><a href>Home</a></li>
+			<li id=""><a href>Mac</a></li>
+			<li id=""><a href>iPad</a></li>
+			<li id=""><a href>iPhone</a></li>
+			<li id=""><a href>Watch</a></li>
+			<li id=""><a href>TV</a></li>
+			<li id=""><a href>Music</a></li>
+			<li id=""><a href>Support</a></li>
+		</ul>
+	</header>
+</body>
+</html>

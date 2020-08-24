@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+	body{
+		margin: 0;
+		padding: 0;
+	}
+	header{
+		height: 50px;
+		margin: 0;
+		background-color: #000000;
+	}
+	ul#menu{
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+	ul#menu>li>a{
+		line-height: 50px;
+		text-decoration: none;
+		color: #ffffff;
+		background-color: #000000;
+		text-align: center;
+	}
+	ul#menu>li{
+		margin-right: 50px;
+		margin-left: 50px;
+		display: inline;
+	}
+	
+	ul#menu .selected{
+		color: #000000;
+		border-bottom: 4px solid #ff8000;
+		font-size: 24px;
+	}
+	
+	li#home>a:hover{color: #000000;
+	}
+	li#mac>a:hover{color: #000000;
+	}
+	li#ipad>a:hover{color: #000000;
+	}
+	li#iphone>a:hover{color: #000000;
+	}
+	li#watch>a:hover{color: #000000;
+	}
+	li#tv>a:hover{color: #000000;
+	}
+	li#music>a:hover{color: #000000;
+	}
+	li#supporty>a:hover{color: #000000;
+	}
+	
+	}
+</style>
+</head>
+<body>
+	<header>
+		<ul id="menu">
+			<li id="home"><a href><img alt="" src="images/apple_logo.png"></a></li>
+			<li id="mac"><a href>Mac</a></li>
+			<li id="ipad"><a href>iPad</a></li>
+			<li id="iphone"><a href>iPhone</a></li>
+			<li id="watch"><a href>Watch</a></li>
+			<li id="tv"><a href>TV</a></li>
+			<li id="music"><a href>Music</a></li>
+			<li id="supporty"><a href>Support</a></li>
+		</ul>
+	</header>
+</body>
+</html>

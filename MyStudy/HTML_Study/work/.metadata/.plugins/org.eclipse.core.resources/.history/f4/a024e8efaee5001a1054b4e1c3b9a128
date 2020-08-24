@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+	#v_menu{
+	border-top: 2px solid blue;
+	width: 200px;
+	list-style: none;
+	padding: 0;
+	margins:0;
+	}
+	#v_menu>li{
+	border: 2px solid blue;
+	border-top: none;
+	height: 58px;
+	}
+</style>
+</head>
+<body>
+	<h1>vertical</h1>
+	<div id="menu">
+		<ul id="v_menu">
+		<li>mail</li>
+		<li>cafe</li>
+		<li>blog</li>
+		<li>jisikin</li>
+		</ul>
+	</div>
+</body>
+</html>

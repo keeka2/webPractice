@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+
+<style>
+table{
+	table: 500px;
+	border: 1px solid black;
+	border-collapse: collapse;
+	}
+</style>
+<body>
+	<header>
+		<h1>테이블 병합<h1/>
+	</header>
+	<article><!-- 현재문서의 본문 -->
+		<div>
+			<table>
+				<tbody>
+					<tr>
+						<td>정창영</td>
+						<td>stockmaster@google.com</td>
+						<td>010-8496-4621</td>
+						<td></td>
+					</tr>		
+					<tr>
+						<td>박대근</td>
+						<td>htmlnojam@google.com</td>
+						<td>010-2222-4621</td>
+						<td></td>
+					</tr>	
+					<tr>
+						<td>개미</td>
+						<td>ant@google.com</td>
+						<td>010-2223-3993</td>
+						<td></td>
+					</tr>	
+					<tr>
+						<td>슈퍼개미</td>
+						<td>stockmaster2@google.com</td>
+						<td>010-8342-4623</td>
+						<td></td>
+					</tr>		
+				</tbody>
+				<thead>
+					<tr>
+						<th>이름</th>
+						<th>이메일</th>
+						<th>연락처</th>
+						<th>구분</th>
+					</tr>
+				</thead>
+			</table>
+		</div>
+	</article>
+</body>
+</html>

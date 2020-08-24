@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<div id="hader">
+		<h1>form practice</h1>
+	</div>
+	
+	<div id="content">
+		<!-- 
+		폼 태그의 속성들 중 action과 method는 반드시 이해해야 함.
+		action: 폼의 모든 정보를 전달하고자 하는 서버 경로
+		method: 전송방식 GET / POST
+		 -->
+		 <form action="" method="get">
+		 	<label for="s_id">
+		 		아이디:
+		 	</label>
+		 	<input type="text" id="s_id" name="id"/>
+		 	</br>
+		 	
+		 	<label for="s_pw">비밀번호: </label>
+		 	<input type="text" id="s_pw" name="pw"/>
+		 </form>
+	</div>
+
+</body>
+</html>
