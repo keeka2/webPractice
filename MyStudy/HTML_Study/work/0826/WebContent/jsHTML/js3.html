@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #box1, #box2{
+            display: inline-block;
+            width: 150px;
+            height: 150px;
+            border: 1px solid black;
+            margin-right: 20px;
+            margin-top: 20px;
+        }
+    </style>
+    </head>
+    <body>
+        <h1>innerHTML/innerText 연습</h1>
+        
+        <button type="button" onclick="ex(this)">버튼1</button>
+        <button type="button" onclick="ex(this)">버튼2</button>
+        <br/>
+        <div id="box1"></div>
+        <div id="box2"></div>
+
+        <script>
+            function ex(bt){
+                //console.log(bt.innerText);
+                if(bt.innerText == '버튼1'){
+                    document.getElementById("box1").innerHTML = "<strong>버튼1</strong>";
+                }else{
+                    document.getElementById("box2").innerText = "<strong>버튼2</strong>";
+                }
+            }
+        </script>
+    </body>
+    </html>

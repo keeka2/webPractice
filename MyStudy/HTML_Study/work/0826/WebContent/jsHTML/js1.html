@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<input type="button" value="test1" onclick="test1()"/><br/>
+<input type="button" value="test2" onclick="test2()"/><br/>
+
+<label for="txt">값: </label>
+<input id="txt" name="s_txt"/>
+<script>
+    var a = 100;
+    function test1(){
+        ++a;
+    }
+    function test2(){
+        var txt = document.getElementById("txt");
+        txt.value = a;
+        console.log(txt.name);
+        console.log(txt.value);
+    }
+</script>
+</body>
+</html>
